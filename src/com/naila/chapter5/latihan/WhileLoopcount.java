@@ -1,6 +1,6 @@
 package com.naila.chapter5.latihan;
 
-public class WhileLoop {
+public class WhileLoopcount {
     public static void main(String[] args) {
         int count = 0 ;
         while (count < 100) {

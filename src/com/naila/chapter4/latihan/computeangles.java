@@ -1,4 +1,4 @@
-package com.naila.chapter4;
+package com.naila.chapter4.latihan;
 
 import java.util.Scanner;
 

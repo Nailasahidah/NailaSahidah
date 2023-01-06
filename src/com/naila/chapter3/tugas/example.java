@@ -1,7 +1,7 @@
 package com.naila.chapter3.tugas;
 
 import java.util.Scanner ;
-public class soal1 {
+public class example {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in) ;
 

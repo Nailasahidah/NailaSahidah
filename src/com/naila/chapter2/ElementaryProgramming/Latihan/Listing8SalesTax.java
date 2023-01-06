@@ -1,2 +1,14 @@
-package com.naila.chapter2.ElementaryProgramming.Latihan;public class Listinng8SalesTax {
+package com.naila.chapter2.ElementaryProgramming.Latihan;
+import java.util.Scanner ;
+public class Listing8SalesTax {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in) ;
+
+        System.out.print("Enter purchase amount: ") ;
+        double purchaseAmount = input.nextDouble() ;
+
+        double tax = purchaseAmount * 0.06 ;
+        System.out.println("Sales tax is $"  + (int)(tax * 100) / 100.0) ;
+
+    }
 }

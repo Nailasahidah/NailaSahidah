@@ -2,7 +2,7 @@ package com.naila.chapter5.latihan;
 
 import java.util.Scanner;
 
-public class RepeatAdditionQuiz {
+public class Listing1RepeatAdditionQuiz {
     public static void main(String[] args) {
         int number1 = (int)(Math.random() * 10) ;
         int number2 = (int)(Math.random() * 10) ;

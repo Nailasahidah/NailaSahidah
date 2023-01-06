@@ -1,4 +1,4 @@
-package com.naila.chapter4;
+package com.naila.chapter4.latihan;
 
 public class latihan {
     public static void main(String[] args) {

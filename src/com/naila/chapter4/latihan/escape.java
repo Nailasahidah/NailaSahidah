@@ -1,4 +1,4 @@
-package com.naila.chapter4;
+package com.naila.chapter4.latihan;
 
 import java.util.Scanner;
 
@@ -6,6 +6,7 @@ public class escape {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in) ;
         System.out.println("Hello to me") ;
+        // escape mempunyai 2 karakter terbalik
 
         // Demo escape squence \t
         System.out.println("\tHello to me") ;
