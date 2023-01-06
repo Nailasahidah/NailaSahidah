@@ -1,30 +1,16 @@
 package com.naila.chapter3.tugas;
 
 import java.util.Scanner ;
-public class soal1 {
+public class soal2 {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in) ;
+        int number1 = (int) (System.currentTimeMillis() % 10);
+        int number2 = (int) (System.currentTimeMillis() / 10 % 10);
+        int number3 = (int) (System.currentTimeMillis() % 10 / 10 % 10);
 
-        System.out.print("Enter a year: ") ;
-        int year = input.nextInt() ;
+        Scanner input = new Scanner(System.in);
+        System.out.print("What is " + number1 + " + " + number2 + " + " + number3 + "? ");
+        int answer = input.nextInt();
 
-        switch (year % 12) {
-            case 0: System.out.println("monkeycute") ; break ;
-            case 1: System.out.println("rooster") ; break ;
-            case 2: System.out.println("dog") ; break ;
-            case 3: System.out.println("pig") ; break ;
-            case 4: System.out.println("rat") ; break ;
-            case 5: System.out.println("ox") ; break ;
-            case 6: System.out.println("tiger") ; break ;
-            case 7: System.out.println("rabbit") ; break ;
-            case 8: System.out.println("dragon") ; break ;
-            case 9: System.out.println("snake") ; break ;
-            case 10: System.out.println("horse") ; break ;
-            case 11: System.out.println("sheep") ;
-
-
-
-        }
+        System.out.println(number1 + " + " + number2 + " + " + number3 + " = " + answer + " is " + (number1 + number2 + number3 == answer));
     }
-
 }
