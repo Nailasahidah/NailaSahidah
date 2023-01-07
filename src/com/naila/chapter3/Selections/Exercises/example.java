@@ -1,4 +1,4 @@
-package com.naila.chapter3.tugas;
+package com.naila.chapter3.Selections.Exercises;
 
 import java.util.Scanner ;
 public class example {

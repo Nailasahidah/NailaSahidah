@@ -1,7 +1,7 @@
-package com.naila.chapter3.tugas;
+package com.naila.chapter3.Selections.Exercises;
 
 import java.util.Scanner ;
-public class soal1 {
+public class soal2 {
     public static void main(String[] args) {
         int number1 = (int) (System.currentTimeMillis() % 10);
         int number2 = (int) (System.currentTimeMillis() / 10 % 10);
