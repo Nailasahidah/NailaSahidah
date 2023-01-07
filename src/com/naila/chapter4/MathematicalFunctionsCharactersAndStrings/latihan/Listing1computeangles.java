@@ -2,7 +2,7 @@ package com.naila.chapter4.latihan;
 
 import java.util.Scanner;
 
-public class computeangles {
+public class Listing1computeangles {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in) ;
 

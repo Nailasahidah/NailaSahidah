@@ -1,6 +1,6 @@
 package com.naila.chapter4.latihan;
 
-public class latihan {
+public class LatihanMetodeMath {
     public static void main(String[] args) {
         //Metode Trigonometri
         System.out.println(Math.sin(90)) ;
