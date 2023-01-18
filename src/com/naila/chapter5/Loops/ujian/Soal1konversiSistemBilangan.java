@@ -27,10 +27,8 @@ public class Soal1konversiSistemBilangan {
         System.out.print("\nKonversikan ke- ");
         int answer = input.nextInt() ;
 
-
         switch (answer) {
             case 1:
-
                 System.out.print("Anda mengkonversi Bilangan Biner ke Oktal");
                 Scanner scan8 = new Scanner(System.in) ;
                 System.out.print("\nMasukan Bilangan Biner : ");
@@ -57,11 +55,6 @@ public class Soal1konversiSistemBilangan {
                     }
                     */
 
-
-
-
-
-
             case 2 :
                 /*
                 System.out.print("Anda Mengkonversi Bilangan Biner ke Desimal");
@@ -70,26 +63,21 @@ public class Soal1konversiSistemBilangan {
                 int numa = Integer.parseInt(scana.nextLine(),2);
                 String biner8 = Integer.toString(numa);
                 System.out.println("Nilai desimalnya Adalah " + biner8); break ;
-
                  */
                  System.out.print("Anda Mengkonversi Bilangan Biner ke Desimal");
-                  System.out.print("\nMasukan Bilangan Biner : ");
-                int angkaBiner = input.nextInt() ;
+                 System.out.print("\nMasukan Bilangan Biner : ");
+                 int angkaBiner = input.nextInt() ;
                  int angkaDesimal =0 ;
-                int i = 1;
-                int digit ;
-                System.out.print("Angka desimal dari biner " + angkaBiner);
-                while (angkaBiner !=0) {
+                 int i = 1;
+                 int digit ;
+                 System.out.print("Angka desimal dari biner " + angkaBiner);
+                 while (angkaBiner !=0) {
                     digit = angkaBiner %10 ;
                     angkaDesimal = angkaDesimal + (digit * i) ;
                     i = i * 2 ;
                     angkaBiner =angkaBiner/10;
-                }
-                System.out.println(" Nilai desimalnya Adalah : " + angkaDesimal) ; break; //110101 ---53
-
-
-
-
+                 }
+                 System.out.println(" Nilai desimalnya Adalah : " + angkaDesimal) ; break; //110101 ---53
 
             case 3 :
                 System.out.print("Anda Mengkonversi Bilangan Biner ke Heksa"); // 10101011--- AB
@@ -107,7 +95,6 @@ public class Soal1konversiSistemBilangan {
                 String biner5 = Integer.toBinaryString(num5);
                 System.out.println("Adalah " + biner5); break;
 
-
                 /*int nilaiOktal = input.nextInt() ;
                 System.out.println("Angka Biner dari Oktal " + nilaiOktal);
                 String bilbiner = "";
@@ -117,7 +104,6 @@ public class Soal1konversiSistemBilangan {
                 System.out.print(" Adalah : " + bilbiner); break ;
 
                  */
-
 
             case 5 :
                 System.out.print("Anda Mengkonversi Bilangan Oktal ke Desimal");
@@ -149,7 +135,6 @@ public class Soal1konversiSistemBilangan {
                 int num3 = Integer.parseInt(scan3.nextLine(),8);
                 String oktal3 = Integer.toHexString(num3);
                 System.out.println("Adalah " + oktal3); break ;
-
 
             case 7 :
                 System.out.print("Anda Mengkonversi Bilangan Desimal ke Biner");
@@ -188,7 +173,6 @@ public class Soal1konversiSistemBilangan {
                 }
                 System.out.print(" Adalah : " + heksa); break ; //123 --- 7B
 
-
             case 10 :
                 System.out.print("Anda Mengkonversi Bilangan Heksa ke Biner"); // 8F ---- 10001111
                 Scanner scan4 = new Scanner(System.in) ;
@@ -196,7 +180,6 @@ public class Soal1konversiSistemBilangan {
                 int num7 = Integer.parseInt(scan4.nextLine(),16);
                 String biner1 = Integer.toBinaryString(num7);
                 System.out.println("Adalah " + biner1); break ;
-
 
             case 11 :
                 System.out.print("Anda Mengkonversi Bilangan Heksa ke Oktal"); //8F ---- 217
@@ -214,8 +197,6 @@ public class Soal1konversiSistemBilangan {
                 int num2 = Integer .parseInt(scan2.nextLine(), 16) ;
                 String oktal2 = Integer.toOctalString(num2) ;
                 System.out.println("Adalah " + oktal2); break ;
-
-
 
             case 12 :
                 System.out.print("Anda Mengkonversi Bilangan Heksa ke Desimal"); //8F --- 143

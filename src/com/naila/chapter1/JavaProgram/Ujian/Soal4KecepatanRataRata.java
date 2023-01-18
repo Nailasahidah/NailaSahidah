@@ -1,6 +1,6 @@
 package com.naila.chapter1.JavaProgram.Ujian;
 
-public class Soal4 {
+public class Soal4KecepatanRataRata {
     public static void main(String[] strings) {
         double hours = 2 ;
         double minutes = 30 ;

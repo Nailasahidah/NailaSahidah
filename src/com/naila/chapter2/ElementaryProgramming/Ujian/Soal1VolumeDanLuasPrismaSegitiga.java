@@ -1,6 +1,6 @@
 package com.naila.chapter2.ElementaryProgramming.Ujian;
 import java.util.Scanner ;
-public class Soal1 {
+public class Soal1VolumeDanLuasPrismaSegitiga {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in) ;
         System.out.print("Enter alas segitiga: ") ;

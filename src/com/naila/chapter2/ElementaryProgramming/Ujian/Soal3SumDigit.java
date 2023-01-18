@@ -1,6 +1,6 @@
 package com.naila.chapter2.ElementaryProgramming.Ujian;
 import java.util.Scanner ;
-public class Soal3 {
+public class Soal3SumDigit {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in) ;
         System.out.print("Enter a number betwen 1000 and 9999: ") ;

@@ -1,6 +1,6 @@
 package com.naila.chapter2.ElementaryProgramming.Ujian;
 import java.util.Scanner ;
-public class Soal2 {
+public class Soal2KonversiRupiahKeDollars {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in) ;
         double rupiahPerDollars = 15.66550 ;

@@ -1,6 +1,6 @@
 package com.naila.chapter2.ElementaryProgramming.Ujian;
 import java.util.Scanner ;
-public class Soal4 {
+public class Soal4BBIdealDanBMI {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in) ;
         System.out.print("Masukan tinggi badan anda: ") ;

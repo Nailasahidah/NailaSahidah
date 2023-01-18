@@ -8,5 +8,8 @@ public class Listing5LotteryUsingStrings {
         Scanner input = new Scanner(System.in) ;
         System.out.print("Enter your lottery pick (two digits): ");
         String guess = input.nextLine() ;
+
+        // Get digits from lottery
+
     }
 }

@@ -1,6 +1,6 @@
 package com.naila.chapter1.JavaProgram.Ujian;
 
-public class Soal1 {
+public class Soal1Biodata {
     public static void main(String[] args) {
         System.out.println("Nama                : Naila Sahidah") ;
         System.out.println("Jurusan             : Teknik Informatika") ;

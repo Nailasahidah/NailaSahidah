@@ -1,6 +1,6 @@
 package com.naila.chapter2.ElementaryProgramming.Ujian;
 import java.util.Scanner ;
-public class Soal5 {
+public class Soal5TotalBiayaPerjalanan {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in) ;
         System.out.print("Masukan jarak perjalanan anda: ") ;

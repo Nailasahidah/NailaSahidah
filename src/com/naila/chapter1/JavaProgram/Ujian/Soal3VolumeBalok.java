@@ -1,6 +1,6 @@
 package com.naila.chapter1.JavaProgram.Ujian;
 
-public class Soal3 {
+public class Soal3VolumeBalok {
     public static void main(String[] args) {
         double p = 5 ;
         double l = 6 ;
