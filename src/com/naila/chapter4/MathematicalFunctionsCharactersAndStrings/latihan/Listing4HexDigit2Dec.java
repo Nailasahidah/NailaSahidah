@@ -28,3 +28,15 @@ public class Listing4HexDigit2Dec {
         }
     }
 }
+
+
+/*Enter a hex digit: AB7C
+You must enter exactly one character
+Enter a hex digit: B
+The decimal value for hex digit B is 11
+Enter a hex digit: 8
+The decimal value for hex digit 8 is 8
+Enter a hex digit: T
+T is an invalid input
+
+ */
