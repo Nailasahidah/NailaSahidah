@@ -9,7 +9,7 @@ public class Listing2TestVoidMethod {
         printGrade(59.5) ;
     }
 
-    public static void printGrade(double score) {
+    public static void printGrade(double score) {   // void tidak memerlukan return
         if (score >= 90.0) {
             System.out.println('A');
         }
@@ -24,6 +24,7 @@ public class Listing2TestVoidMethod {
         }
         else
             System.out.println('F');
+
     }
 }
 

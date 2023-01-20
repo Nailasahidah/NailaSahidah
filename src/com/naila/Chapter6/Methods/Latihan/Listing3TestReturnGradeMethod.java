@@ -2,8 +2,8 @@ package com.naila.Chapter6.Methods.Latihan;
 
 public class Listing3TestReturnGradeMethod {
     public static void main(String[] args) {
-        System.out.print("The grade is " + getGrade(78.5));
-        System.out.print("\nThe grade is " + getGrade(59.5));
+        System.out.print("The grade is " + getGrade(99));
+        System.out.print("\nThe grade is " + getGrade(58));
     }
 
     public static char getGrade(double score) {
