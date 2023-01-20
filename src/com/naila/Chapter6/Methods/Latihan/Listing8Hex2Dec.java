@@ -18,10 +18,8 @@ public class Listing8Hex2Dec {
             char hexChar = hex.charAt(i);
             decimalValue = decimalValue * 16 + hexCharToDecimal(hexChar) ;
         }
-
         return decimalValue;
     }
-
     public static int hexCharToDecimal(char ch) {
         if (ch >= 'A' && ch <= 'F')
             return 10 + ch - 'A' ;

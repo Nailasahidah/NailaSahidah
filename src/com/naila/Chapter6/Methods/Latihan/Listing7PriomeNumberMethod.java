@@ -5,7 +5,6 @@ public class Listing7PriomeNumberMethod {
         System.out.println("The first 50 prime number are \n");
         printPrimeNumbers(50);
     }
-
     public static void printPrimeNumbers(int numberOfPrimes){
         final int NUMBER_OF_PRIMES_PER_LINE = 10 ;
         int count = 0 ;
@@ -20,7 +19,6 @@ public class Listing7PriomeNumberMethod {
                 }
                 else System.out.printf("%-5d", number);
             }
-
             number++ ;
         }
     }

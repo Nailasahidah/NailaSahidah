@@ -17,7 +17,6 @@ public class Listing12PrintCalender {
 
         printMonthBody(year, month) ;
     }
-
     public static void printMonthTitle(int year, int month) {
         System.out.println("          " + getMonthName(month) + " " + year);
         System.out.println("---------------------------");
@@ -32,7 +31,7 @@ public class Listing12PrintCalender {
             case 3 : monthName = "March" ; break ;
             case 4 : monthName = "April" ; break ;
             case 5 : monthName = "May" ; break ;
-            case 6 : monthName = "JUne" ; break ;
+            case 6 : monthName = "June" ; break ;
             case 7 : monthName = "July" ; break ;
             case 8 : monthName = "August" ; break ;
             case 9 : monthName = "September" ; break ;
