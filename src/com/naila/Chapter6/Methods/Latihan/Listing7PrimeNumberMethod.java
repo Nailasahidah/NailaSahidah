@@ -1,6 +1,6 @@
 package com.naila.Chapter6.Methods.Latihan;
 
-public class Listing7PriomeNumberMethod {
+public class Listing7PrimeNumberMethod {
     public static void main(String[] args) {
         System.out.println("The first 50 prime number are \n");
         printPrimeNumbers(50);
