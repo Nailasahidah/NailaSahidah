@@ -3,7 +3,7 @@ package com.naila.Chapter6.Methods.Ujian;
 public class Soal1_InchToMeter {
     public static void main(String[] args) {
         System.out.println("\nInch     Meters       |        Meters      Inch\n" +
-                "------------------------------------------------");
+                           "---------------------------------------------------");
         for (double inch = 1, meters = 1 ;
         inch <=100; inch++,meters += 1.0 ) {
                 System.out.printf("%4.1f     ",   inch);

@@ -38,9 +38,9 @@ public class Soal4_PenggajihanKaryawan {
         System.out.print("       " + gajiPokok);
         System.out.print("       |        ");
         System.out.print(status(status,anak,gajiPokok));
-        System.out.print("      |        ");
-        System.out.print(jarak(jarak,masuk));
         System.out.print("       |        ");
+        System.out.print(jarak(jarak,masuk));
+        System.out.print("        |        ");
         System.out.print(tahun1(tahun)) ;
 
         int totalGaji =(int)(gajiPokok + status(status,anak,gajiPokok) + jarak(jarak,masuk) + tahun1(tahun));

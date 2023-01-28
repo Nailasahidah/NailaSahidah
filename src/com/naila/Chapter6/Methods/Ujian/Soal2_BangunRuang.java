@@ -40,6 +40,7 @@ public class Soal2_BangunRuang {
                 System.out.println("Volume Prisma segitiga adalah " + volumePrisma(alas, tinggi1, tinggi2));
                 System.out.println("Luas permukaannya adalah " +
                         String.format("%.2f",luasPermukaan(alas, tinggi1, tinggi2, ks))); break ;
+            /*
             case 4 :
                 System.out.print("Anda memilih bangun ruang : Hexagon");
                 System.out.print("\nEnter the length of the side: ");
@@ -51,36 +52,41 @@ public class Soal2_BangunRuang {
                 System.out.print("\nEnter the side: ");
                 double sidePtgon = input.nextDouble();
                 System.out.println("The area of the pentagon is " + areaPentagon(sidePtgon));
+
+             */
         }
 
     }
 
-    public static double area (double radius, double PI) {
+    public static double area (double radius, double PI) {                  //1
 
         return radius * radius * PI;
     }
-    public  static double volume (double area, double length) {
+    public  static double volume (double area, double length) {             //1
 
         return area * length ;
     }
-    public static double volumeBalok(double panjang, double lebar, double tinggi){
+    public static double volumeBalok(double panjang, double lebar, double tinggi){    //2
 
         return panjang * lebar * tinggi ;
     }
-    public static double luasBalok (double panjang, double lebar) {
+    public static double luasBalok (double panjang, double lebar) {                     //2
 
         return panjang * lebar;
     }
-    public static double volumePrisma (double alas, double tinggi1, double tinggi2) {
+    public static double volumePrisma (double alas, double tinggi1, double tinggi2) {                   //3
         return (0.5 * alas * tinggi1) * tinggi2;
     }
-    public static double luasPermukaan (double alas, double tinggi1, double tinggi2, double ks) {
+    public static double luasPermukaan (double alas, double tinggi1, double tinggi2, double ks) {       //3
         return (2 * 1 / 2 * alas * tinggi1) + (ks * tinggi2);
     }
-    public static double area (double side) {
+    /*
+    public static double area (double side) {                                   //4
         return ((3 * Math.pow(3, 0.5)) / 2) * Math.pow(side, 2) ;
     }
-    public static double areaPentagon(double sidePtgon) {
+    public static double areaPentagon(double sidePtgon) {                       //5
         return (5 * Math.pow(sidePtgon, 2)) / (4 * Math.tan(Math.PI / 5));
     }
+
+    */
 }
