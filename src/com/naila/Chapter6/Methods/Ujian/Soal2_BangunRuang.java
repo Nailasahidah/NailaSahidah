@@ -5,88 +5,92 @@ import java.util.Scanner;
 public class Soal2_BangunRuang {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in) ;
-        System.out.println("pilih Bangun ruang : " + "\n1. Lingkaran " +
-                "\n2. Balok" + "\n3. Prisma Segitiga" + "\n4. Hexagon" + "\n5. Pentagon");
+        System.out.println("pilih Bangun ruang : " + "\n1. Tabung " +
+                "\n2. Balok" + "\n3. Bola" + "\n4. Kerucut" + "\n5. Kubus");
         int answer = input.nextInt();
-
+        System.out.print("Anda memilih bangun ruang ");
         switch (answer) {
             case 1 :
-                System.out.print("Anda memilih bangun ruang:  Lingkaran");
-                System.out.print("\nEnter the radius ang length of cylinder:");
-                double radius = input.nextDouble();
-                double length = input.nextDouble();
+                System.out.print("Tabung");
+                System.out.print("\nMasukkan jari-jari alas lingkaran :");
+                double r1 = input.nextDouble();
+                System.out.print("Masukkan tinggi :");
+                double t1 = input.nextDouble();
                 double PI = 3.14159;
-                System.out.println("The area is " + String.format("%.2f", area(radius, PI)));
-                System.out.println("The volume is " + String.format("%.2f", volume (area(radius, PI), length))); break ;
+                System.out.println("Luas permukaan tabung adalah " + String.format("%.2f", luas1 ( PI, r1, t1)) + " cm2");
+                System.out.println("Volume tabung adalah " + String.format("%.2f", volumeTabung (PI,r1, t1)) + "cm3"); break ;
 
             case 2 :
-                System.out.print("Anda memilih bangun ruang: Balok");
+                System.out.print("Balok");
                 System.out.println("\nMasukan panjang, lebar, dan tinggi :");
                 double panjang = input.nextDouble();
                 double lebar = input.nextDouble();
                 double tinggi = input.nextDouble();
-                System.out.println("Volume balok adalah " + volumeBalok(panjang, lebar, tinggi) + " cm3" );
-                System.out.println("Luas permukaan Balok adalah " + luasBalok(panjang, lebar) + " cm3"); break;
+                System.out.println("Volume balok adalah " + String.format("%.2f",volumeBalok(panjang, lebar, tinggi)) + " cm3" );
+                System.out.println("Luas permukaan Balok adalah " + String.format("%.2f", luasBalok (panjang, lebar, tinggi)) + " cm2"); break;
 
             case 3 :
-                System.out.print("Anda memilih bangun ruang : Prisma Segitiga");
-                System.out.print("\nMasukan alas segitiga : ");
-                double alas = input.nextDouble();
-                System.out.print("\nMasukan tinggi Segitiga : ");
-                double tinggi1 = input.nextDouble();
-                System.out.print("\nMasukan tinggi Prisma : ");
-                double tinggi2 = input.nextDouble();
-                double ks = 2 * Math.pow((Math.pow((alas / 2), 2) + Math.pow(tinggi1, 2)), 0.5)  + alas ;
-                System.out.println("Volume Prisma segitiga adalah " + volumePrisma(alas, tinggi1, tinggi2));
-                System.out.println("Luas permukaannya adalah " +
-                        String.format("%.2f",luasPermukaan(alas, tinggi1, tinggi2, ks))); break ;
-            /*
+                System.out.print("Bola");
+                System.out.print("\nMasukan jari-jari : ");
+                double r2 = input.nextDouble();
+                double PI2 = 3.14159;
+                System.out.println("Volume Bola adalah " + String.format("%.2f",volumeBola (r2,PI2)) + "cm3");
+                System.out.println("Luas permukaannya adalah " + String.format("%.2f", luasBola (PI2, r2)) + "cm2"); break ;
+
             case 4 :
-                System.out.print("Anda memilih bangun ruang : Hexagon");
-                System.out.print("\nEnter the length of the side: ");
-                double side = input.nextDouble() ;
-                System.out.println("The area of the hexagon is " + area(side));
+                System.out.print("Kerucut");
+                System.out.print("\nMasukkan jari-jari alas lingkaran : ");
+                double r = input.nextDouble() ;
+                System.out.print("Masukkan tinggi : ");
+                double t = input.nextDouble();
+                System.out.print("Masukkan panjang garis apotema : ");
+                double s = input.nextDouble() ;
+                double PI1 = 3.14159;
+                System.out.println("Volume kerucut adalah " + String.format("%.2f", volumeKerucut (r, t, PI1)) + " cm3");
+                System.out.println("Luas permukaan kerucut adalah : " + String.format("%.2f", LuasKerucut ( PI1, r, s)) + " cm2"); break;
 
             case 5 :
-                System.out.print("Anda memilih bangun ruang : Pentagon");
-                System.out.print("\nEnter the side: ");
-                double sidePtgon = input.nextDouble();
-                System.out.println("The area of the pentagon is " + areaPentagon(sidePtgon));
-
-             */
+                System.out.print("Kubus");
+                System.out.print("\nMasukkan sisi / panjang rusuk : ");
+                double s1 = input.nextDouble();
+                System.out.println("Volume kubus adalah " + String.format("%.2f", volumeKubus (s1)) + " cm3");
+                System.out.println("Luas permukaan kubus adalah : " + String.format("%.2f", luasKubus(s1)) + " cm2"); break;
         }
-
     }
 
-    public static double area (double radius, double PI) {                  //1
+    public static double luas1 (double PI, double r1 , double t1) {                     //1
 
-        return radius * radius * PI;
+        return 2 * PI * r1 * ( r1 + t1);
     }
-    public  static double volume (double area, double length) {             //1
+    public  static double volumeTabung (double PI, double r1, double t1) {             //1
 
-        return area * length ;
+        return PI * r1 * r1 * t1 ;
     }
     public static double volumeBalok(double panjang, double lebar, double tinggi){    //2
 
         return panjang * lebar * tinggi ;
     }
-    public static double luasBalok (double panjang, double lebar) {                     //2
+    public static double luasBalok (double panjang, double lebar, double tinggi) {    //2
 
-        return panjang * lebar;
+        return 2 * ((panjang* lebar) + (panjang * tinggi) + (lebar * tinggi));
     }
-    public static double volumePrisma (double alas, double tinggi1, double tinggi2) {                   //3
-        return (0.5 * alas * tinggi1) * tinggi2;
+    public static double volumeBola (double r2,double PI2) {                         //3
+        return 4/3.0 * PI2* r2 * r2 * r2;
     }
-    public static double luasPermukaan (double alas, double tinggi1, double tinggi2, double ks) {       //3
-        return (2 * 1 / 2 * alas * tinggi1) + (ks * tinggi2);
-    }
-    /*
-    public static double area (double side) {                                   //4
-        return ((3 * Math.pow(3, 0.5)) / 2) * Math.pow(side, 2) ;
-    }
-    public static double areaPentagon(double sidePtgon) {                       //5
-        return (5 * Math.pow(sidePtgon, 2)) / (4 * Math.tan(Math.PI / 5));
+    public static double luasBola (double PI2, double r2) {                          //3
+        return 4 * PI2 * r2 * r2;
     }
 
-    */
+    public static double volumeKerucut (double r, double t, double PI1) {            //4
+        return 1/3.0 * PI1 * r * r * t ;
+    }
+    public static double LuasKerucut (double PI1, double r, double s){
+        return PI1 * r * (r + s) ;
+    }
+    public static double luasKubus(double s1) {                                      //5
+        return 6 * s1 * s1  ;
+    }
+    public static double volumeKubus (double s1) {
+        return s1 * s1 * s1;
+    }
 }
