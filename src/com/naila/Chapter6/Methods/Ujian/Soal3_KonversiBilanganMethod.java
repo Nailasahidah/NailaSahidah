@@ -33,14 +33,14 @@ public class Soal3_KonversiBilanganMethod {
                 Scanner scan8 = new Scanner(System.in);
                 System.out.print("\nMasukan Bilangan Biner : ");
                 int num = Integer.parseInt(scan8.nextLine(), 2);
-                System.out.println("Angka oktalnya adalah : " + biner(num)); break ;
+                System.out.println("Angka oktalnya adalah : " + biner(num)); break ;   //10101011 ---253
 
             case 2 :
                 System.out.print("Biner ke Desimal");
                 Scanner scana = new Scanner(System.in) ;
                 System.out.print("\nMasukan Bilangan Biner : ");
                 int numa = Integer.parseInt(scana.nextLine(),2);
-                System.out.println(" Nilai desimalnya Adalah : " + biner8(numa)) ; break;
+                System.out.println("Nilai desimalnya Adalah : " + biner8(numa)) ; break;       //110101 ---53
             case 3 :
                 System.out.print("Biner ke Heksa"); // 10101011--- AB
                 Scanner scan1 = new Scanner(System.in);
@@ -58,20 +58,20 @@ public class Soal3_KonversiBilanganMethod {
                 Scanner scan7 = new Scanner(System.in) ;
                 System.out.print("\nMasukan Bilangan Oktal : ");
                 int num4 = Integer.parseInt(scan7.nextLine(), 8);
-                System.out.println("Angka desimalnya Adalah " + oktal4(num4)); break ;
+                System.out.println("Angka desimalnya Adalah " + oktal4(num4)); break ;  //371 ---249
             case 6 :
                 System.out.print("Oktal ke Heksa"); //243 ---A3
                 Scanner scan3 = new Scanner(System.in) ;
                 System.out.print("\nMasukan Bilangan Oktal : ");
                 int num3 = Integer.parseInt(scan3.nextLine(),8);
-                System.out.println("Nilai heksanya Adalah " + oktal3(num3)); break ;
+                System.out.println("Nilai heksanya Adalah " + oktal3(num3)); break ;        //243 ---A3
             case 7 :
                 System.out.print("Desimal ke Biner");
                 Scanner scan0 = new Scanner(System.in);
                 System.out.print("\nMasukan Bilangan Desimal : ");
                 int num9 = Integer.parseInt(scan0.nextLine(), 10) ;
                 String desimal = Integer.toBinaryString(num9) ;
-                System.out.println("Nilai binernya Adalah : " + desimal(num9)); break ; //89 ---1011001
+                System.out.println("Nilai binernya Adalah : " + decimal(num9)); break ; //89 ---1011001
             case 8 :
                 System.out.print("Desimal ke Oktal");
                 Scanner scan10 = new Scanner(System.in) ;
@@ -111,13 +111,13 @@ public class Soal3_KonversiBilanganMethod {
                 Scanner scan6 =new Scanner(System.in) ;                            // 6C --- 108
                 System.out.print("\nMasukan Bilangan Heksa : ");
                 int num6 = Integer.parseInt(scan6.nextLine(), 16);
-                System.out.println("Nilai desimalnya Adalah " + desimal1(num6));
+                System.out.println("Nilai desimalnya Adalah " + decimal1(num6));
 
 
         }
     }
-    public static String biner(int num){                //1
-        return Integer.toOctalString(num) ;
+    public static String biner(int num) {               //1
+            return Integer.toOctalString(num);
     }
     public static String biner8(int numa){              //2
         return Integer.toString(numa);
@@ -134,7 +134,7 @@ public class Soal3_KonversiBilanganMethod {
     public static String oktal3 (int num3) {             //6
         return Integer.toHexString(num3);
     }
-    public static String desimal(int num9){              //7
+    public static String decimal(int num9){              //7
         return Integer.toBinaryString(num9);
     }
     public static String desimal10(int num10){          //8
@@ -146,10 +146,10 @@ public class Soal3_KonversiBilanganMethod {
     public static String  biner2( int num7) {           //10
         return Integer.toBinaryString(num7);
     }
-    public static String oktal2 (int num2){             //11
+    public static String oktal2 (int num2) {             //11
         return Integer.toOctalString(num2) ;
     }
-    public static String desimal1 (int num6) {          //12
+    public static String decimal1(int num6) {          //12
         return Integer.toString(num6);
     }
 }

@@ -18,7 +18,7 @@ public class Soal2_BangunRuang {
                 double t1 = input.nextDouble();
                 double PI = 3.14159;
                 System.out.println("Luas permukaan tabung adalah " + String.format("%.2f", luas1 ( PI, r1, t1)) + " cm2");
-                System.out.println("Volume tabung adalah " + String.format("%.2f", volumeTabung (PI,r1, t1)) + "cm3"); break ;
+                System.out.println("Volume tabung adalah " + String.format("%.2f", volumeTabung (PI, r1, t1)) + "cm3"); break ;
 
             case 2 :
                 System.out.print("Balok");
@@ -34,8 +34,8 @@ public class Soal2_BangunRuang {
                 System.out.print("\nMasukan jari-jari : ");
                 double r2 = input.nextDouble();
                 double PI2 = 3.14159;
-                System.out.println("Volume Bola adalah " + String.format("%.2f",volumeBola (r2,PI2)) + "cm3");
-                System.out.println("Luas permukaannya adalah " + String.format("%.2f", luasBola (PI2, r2)) + "cm2"); break ;
+                System.out.println("Volume Bola adalah " + String.format("%.2f",volumeBola (r2,PI2)) + " cm3");
+                System.out.println("Luas permukaannya adalah " + String.format("%.2f", luasBola (PI2, r2)) + " cm2"); break ;
 
             case 4 :
                 System.out.print("Kerucut");
@@ -59,15 +59,12 @@ public class Soal2_BangunRuang {
     }
 
     public static double luas1 (double PI, double r1 , double t1) {                     //1
-
         return 2 * PI * r1 * ( r1 + t1);
     }
     public  static double volumeTabung (double PI, double r1, double t1) {             //1
-
         return PI * r1 * r1 * t1 ;
     }
     public static double volumeBalok(double panjang, double lebar, double tinggi){    //2
-
         return panjang * lebar * tinggi ;
     }
     public static double luasBalok (double panjang, double lebar, double tinggi) {    //2

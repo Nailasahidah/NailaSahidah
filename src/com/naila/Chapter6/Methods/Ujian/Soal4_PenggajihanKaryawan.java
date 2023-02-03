@@ -58,21 +58,21 @@ public class Soal4_PenggajihanKaryawan {
             case "Menikah":
                 if (anak <= 0) {
                     return 5 / 100.0 * gajiPokok;
-                } else if (anak > 1 && anak <= 3) {
+                } else if (anak >= 1 && anak <= 3) {
                     return 7.5 / 100.0 * gajiPokok;
-                } else if (anak > 3) {
+                } else if (anak >= 4) {
                     return 10 / 100.0 * gajiPokok;
                 } else
                     break;
             case "Duda":
                 if (anak >= 1) {
                     return 5 / 100.0 * gajiPokok;
-                } else if (anak < 0){
+                } else if (anak <= 0){
                     return 3 / 100.0 * gajiPokok;
                 }else
                     break;
             case "Janda":
-                if (anak > 1) {
+                if (anak >= 1) {
                     return 7.5 / 100.0 * gajiPokok;
                 } else
                     return 5 / 100.0 * gajiPokok;
@@ -83,7 +83,7 @@ public class Soal4_PenggajihanKaryawan {
             if (jarak >= 5 && jarak <= 10 ) {
                 return 10000 * masuk;
             }
-            else if (jarak > 10) {
+            else if (jarak >= 11) {
                 return 15000 * masuk;
             }else
                 return 5000 * masuk;
@@ -93,7 +93,7 @@ public class Soal4_PenggajihanKaryawan {
         if (tahun1 > 5) {
             return 750000 ;
         }
-        else if (tahun >=2 || tahun <= 5) {
+        else if (tahun1 >=2 && tahun1 <= 5) {
             return 500000 ;
         }else
             return 200000 ;
