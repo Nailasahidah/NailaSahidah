@@ -72,14 +72,14 @@ public class Soal2_BangunRuang {
         return 2 * ((panjang* lebar) + (panjang * tinggi) + (lebar * tinggi));
     }
     public static double volumeBola (double r2,double PI2) {                         //3
-        return 4/3.0 * PI2* r2 * r2 * r2;
+        return (4.0/3.0) * PI2* r2 * r2 * r2;
     }
     public static double luasBola (double PI2, double r2) {                          //3
         return 4 * PI2 * r2 * r2;
     }
 
     public static double volumeKerucut (double r, double t, double PI1) {            //4
-        return 1/3.0 * PI1 * r * r * t ;
+        return (1.0/3.0) * PI1 * r * r * t ;
     }
     public static double LuasKerucut (double PI1, double r, double s){
         return PI1 * r * (r + s) ;
