@@ -35,6 +35,9 @@ Write a test program that prompts the user to enter 10 integers, invokes the fir
 method, then displays the average value; prompts the user to enter 10 double
 values, invokes the second method, then displays the average value.
 
+Enter ten values of double type: 2 3 4 5 6 4 3 1 2 1
+The average value: 3.1
+
 (Rata-rata array) Tulis dua metode kelebihan beban yang mengembalikan rata-rata array dengan header berikut:
 public static double average(int[] array)
 public static double average(double[] array)

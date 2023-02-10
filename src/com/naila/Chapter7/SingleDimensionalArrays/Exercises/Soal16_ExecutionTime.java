@@ -12,9 +12,9 @@ public class Soal16_ExecutionTime {
         int key = getRandomInt();
 
         int searchResult;
-        long startTime = System.currentTimeMillis();
+        long startTime = System.nanoTime();
         searchResult = linearSearch(numbers, key);
-        long endTime = System.currentTimeMillis();
+        long endTime = System.nanoTime();
         long executionTime = endTime - startTime;
         System.out.println(
                 "Execution time of invoking the linearSearch in milliseconds: "
@@ -22,9 +22,9 @@ public class Soal16_ExecutionTime {
 
         selectionSort(numbers);
 
-        startTime = System.currentTimeMillis();
+        startTime = System.nanoTime();
         searchResult = binarySearch(numbers, key);
-        endTime = System.currentTimeMillis();
+        endTime = System.nanoTime();
         executionTime = endTime - startTime;
         System.out.println(
                 "Execution time of invoking the binarySearch in milliseconds: "
@@ -75,13 +75,17 @@ public class Soal16_ExecutionTime {
 
 
 /*
-        (Execution time) Write a program that randomly generates an array of 100,000
-        integers and a key. Estimate the execution time of invoking the linearSearch
-        method in Listing 7.6. Sort the array and estimate the execution time of invoking
-        the binarySearch method in Listing 7.7. You can use the following code template to obtain the execution time:
-        long startTime = System.nanoTime();
-        perform the task;
-        long endTime = System.nanoTime();
-        long executionTime = endTime − startTime;
+(Execution time) Write a program that randomly generates an array of 100,000
+ integers and a key. Estimate the execution time of invoking the linearSearch
+ method in Listing 7.6. Sort the array and estimate the execution time of invoking
+ the binarySearch method in Listing 7.7. You can use the following code template to obtain the execution time:
+ long startTime = System.nanoTime();
+ perform the task;
+ long endTime = System.nanoTime();
+ long executionTime = endTime − startTime;
+
+Execution time of invoking the linearSearch in milliseconds: 121100
+Execution time of invoking the binarySearch in milliseconds: 12000
+
 
  */

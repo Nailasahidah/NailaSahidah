@@ -56,5 +56,12 @@ Nilai adalah D jika skor Ú terbaik -40;
 Grade adalah F sebaliknya.
  Program meminta pengguna untuk memasukkan jumlah total siswa, lalu meminta
 pengguna untuk memasukkan semua skor, dan diakhiri dengan menampilkan nilai. Di sini adalah
-contoh lari:
+contoh :
+
+Enter the number of students: 2
+Enter 2 scores: 78
+91
+Student 0 scores is 78 and grade is B
+Student 1 scores is 91 and grade is A
+
  */

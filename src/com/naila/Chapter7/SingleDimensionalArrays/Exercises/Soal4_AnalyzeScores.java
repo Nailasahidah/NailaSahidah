@@ -46,4 +46,16 @@ input. Assume the maximum number of scores is 100.
 menentukan berapa banyak skor di atas atau sama dengan rata-rata, dan berapa banyak
 skor berada di bawah rata-rata. Masukkan angka negatif untuk menandakan akhir dari
 memasukkan. Asumsikan jumlah skor maksimum adalah 100.
+
+Enter scores: (negative number signifies end): 5
+4
+4
+3
+5
+-6
+
+Average of scores: 4
+Number of scores above or equal to average: 4
+Number of scores below average: 1
+
  */
