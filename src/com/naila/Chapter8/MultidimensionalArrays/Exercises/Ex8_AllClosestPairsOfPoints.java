@@ -20,7 +20,7 @@ public class Ex8_AllClosestPairsOfPoints {
                 points[p2][0], points[p2][p1]);
 
         for (int i = 0; i < points.length; i++) {
-            for (int j = 0; j < points.length; j++) {
+            for (int j = i + 1; j < points.length; j++) {
                 double distance = distance(points[i][0], points[i][1],
                         points[j][0], points[j][1]);
 
@@ -46,3 +46,24 @@ public class Ex8_AllClosestPairsOfPoints {
         return Math.sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1));
     }
 }
+/*
+(All closest pairs of points) Revise Listing 8.3, FindNearestPoints.java, to
+ display all closest pairs of points with the same minimum distance.
+
+ Enter the number of points : 8
+Enter 8 points: 0 0 1 1 -1 -1 2 2 -2 -2 -3 -3 -4 -4 5 5
+The closest two points are (0.0, 0.0) and (1.0, 1.0)
+The closest two points are (0.0, 0.0) and (-1.0, -1.0)
+The closest two points are (1.0, 1.0) and (0.0, 0.0)
+The closest two points are (1.0, 1.0) and (2.0, 2.0)
+The closest two points are (-1.0, -1.0) and (0.0, 0.0)
+The closest two points are (-1.0, -1.0) and (-2.0, -2.0)
+The closest two points are (2.0, 2.0) and (1.0, 1.0)
+The closest two points are (-2.0, -2.0) and (-1.0, -1.0)
+The closest two points are (-2.0, -2.0) and (-3.0, -3.0)
+The closest two points are (-3.0, -3.0) and (-2.0, -2.0)
+The closest two points are (-3.0, -3.0) and (-4.0, -4.0)
+The closest two points are (-4.0, -4.0) and (-3.0, -3.0)
+Their distance is 1.4142135623730951
+
+ */
