@@ -21,6 +21,7 @@ public class Listing2_TestDataStream {
             throw new RuntimeException(e);
         }
 
+
         try (DataInputStream input = new DataInputStream(new FileInputStream("temp.dat"));
         ) {
             System.out.println(input.readUTF() + " " + input.readDouble());
