@@ -1,5 +1,7 @@
 package com.naila.Chapter8.MultidimensionalArrays.Exercises;
 
+import com.naila.chapter2.ElementaryProgramming.Exercises.Soal5CalculateTips;
+
 import java.util.Scanner;
 
 public class Ex1_SumElementsColumnByColumn {
