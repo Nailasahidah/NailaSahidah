@@ -11,6 +11,7 @@ public class Listing2_TestDataStream {
                 DataOutputStream output =
                         new DataOutputStream(new FileOutputStream("temp.dat"));
         ) {
+            
             output.writeUTF("John");
             output.writeDouble(85.5);
             output.writeUTF("Susan");
