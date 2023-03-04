@@ -1,4 +1,4 @@
-package com.naila.Chapter12.ContohException;
+package com.naila.Chapter12.ExceptionHandlingAndTextIO.ContohException;
 
 import java.io.FileInputStream;
 import java.util.Scanner;

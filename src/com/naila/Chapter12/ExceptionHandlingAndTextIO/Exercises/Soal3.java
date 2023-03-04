@@ -1,4 +1,4 @@
-package com.naila.Chapter12.Exercises;
+package com.naila.Chapter12.ExceptionHandlingAndTextIO.Exercises;
 
 import java.util.Scanner;
 
