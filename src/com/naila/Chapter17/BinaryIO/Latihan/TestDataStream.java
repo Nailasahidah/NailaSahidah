@@ -5,7 +5,7 @@ import java.io.DataOutputStream;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
-public class Listing2_TestDataStream {
+public class TestDataStream {
     public static void main(String[] args) {
         try (
                 DataOutputStream output =

@@ -2,7 +2,7 @@ package com.naila.Chapter17.BinaryIO.Latihan;
 
 import java.io.*;
 
-public class Listing3_DetectEndOfFile {
+public class DetectEndOfFile {
     public static void main(String[] args) {
         try {
             try (DataOutputStream output = new DataOutputStream(new FileOutputStream("test.dat"))) {
