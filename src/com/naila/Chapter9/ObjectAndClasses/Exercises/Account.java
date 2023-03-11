@@ -14,7 +14,7 @@ public class Account {
         annualInterestRate = 0;
         dateCreated = new Date();
     }
-    Account(int newId, double newBalance) {
+    public Account(int newId, double newBalance) {
         id = newId;
         balance = newBalance;
         dateCreated = new Date();
