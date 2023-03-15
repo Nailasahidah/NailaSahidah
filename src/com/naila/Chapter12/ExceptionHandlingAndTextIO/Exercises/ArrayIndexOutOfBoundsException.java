@@ -2,7 +2,7 @@ package com.naila.Chapter12.ExceptionHandlingAndTextIO.Exercises;
 
 import java.util.Scanner;
 
-public class Soal3 {
+public class ArrayIndexOutOfBoundsException {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int[] array = getArray();
@@ -12,7 +12,7 @@ public class Soal3 {
             System.out.println("The corresponding element value is " +
                     array[input.nextInt()]);
         }
-        catch (ArrayIndexOutOfBoundsException ex) {
+        catch (java.lang.ArrayIndexOutOfBoundsException ex) {
             System.out.println("Out of Bounds.");
         }
     }

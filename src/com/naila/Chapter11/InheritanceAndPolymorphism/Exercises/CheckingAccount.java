@@ -24,5 +24,8 @@ public class CheckingAccount extends Account {
         else
             System.out.println("Error! Amount exceeds overdraft limit.");
     }
+    public String toString() {
+        return super.toString() + "\nOverdraft limit: $" + String.format("%.2f", overdraftLimit);
+    }
     
 }
