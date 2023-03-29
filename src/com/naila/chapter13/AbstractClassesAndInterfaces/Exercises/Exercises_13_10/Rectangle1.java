@@ -1,16 +1,19 @@
-package com.naila.chapter13.AbstractClassesAndInterfaces.Exercises.Exercises_13_05;
+package com.naila.chapter13.AbstractClassesAndInterfaces.Exercises.Exercises_13_10;
 
-public class Rectangle extends GeometricObject_ {
+import com.naila.chapter13.AbstractClassesAndInterfaces.Exercises.Exercises_13_07.GeometricObject2;
+
+public class Rectangle1 extends GeometricObject2 implements  Comparable<Rectangle1> {
     private double width;
     private double height;
 
-    public Rectangle() {
+    public Rectangle1() {
     }
-    public Rectangle(double width, double height) {
+    public Rectangle1(double width, double height) {
         this.width = width;
         this.height = height;
     }
-    public Rectangle(double width, double height, String color, boolean filled) {
+    public Rectangle1(
+            double width, double height, String color, boolean filled) {
         this.width = width;
         this.height = height;
         setColor(color);
@@ -39,6 +42,19 @@ public class Rectangle extends GeometricObject_ {
     @Override
     public double getPerimeter() {
         return 2 * (width * height);
+    }
+    @Override
+    public int compareTo(Rectangle1 o) {
+        if (getArea() > o.getArea())
+            return 1;
+        else if (getArea() < o.getArea())
+            return -1;
+        else
+            return 0;
+    }
+    @Override
+    public boolean equals(Object o) {
+        return this.compareTo((Rectangle1) o) == 0;
     }
     @Override
     public String toString() {
