@@ -19,3 +19,7 @@ public class Soal14ComputingBMI {
         System.out.println("BMI is " + String.format("%.4f", bodyMassIndex) );
     }
 }
+
+//Enter weight in pounds: 95.5
+//Enter height in inches: 50
+//BMI is 26.8573

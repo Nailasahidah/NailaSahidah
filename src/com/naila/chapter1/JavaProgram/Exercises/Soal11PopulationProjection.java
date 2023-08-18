@@ -24,3 +24,21 @@ public class Soal11PopulationProjection {
 
     }
 }
+
+// (Proyeksi populasi) Biro Sensus AS memproyeksikan populasi berdasarkan asumsi berikut:
+// Satu kelahiran setiap 7 detik
+// Satu kematian setiap 13 detik
+// Satu imigran baru setiap 45 detik
+// Buatlah program untuk menampilkan jumlah penduduk setiap lima tahun ke depan. Menganggap
+// bahwa jumlah penduduk saat ini adalah 312.032.486, dan satu tahun terdiri dari 365 hari.
+// Petunjuk:
+// Di Jawa, jika dua bilangan bulat melakukan pembagian, hasilnya adalah bilangan bulat. Bagian pecahan dipotong.
+// Misalnya, 5/4 adalah 1 (bukan 1,25) dan 10/4 adalah 2 (bukan 2,5).
+// Untuk mendapatkan hasil yang akurat dengan bagian pecahan, salah satu nilai yang terlibat dalam pembagian harus
+// angka dengan titik desimal. Misalnya, 5,0 / 4 adalah 1,25 dan 10 / 4,0 adalah 2,5.
+//
+// Year 1 = 309157409
+// Year 2 = 306282332
+// Year 3 = 303407255
+// Year 4 = 300532178
+// Year 5 = 297657101

@@ -32,3 +32,11 @@ public class Listing10ComputeChange {
         System.out.println(" " + numberOfPennies + " pennies") ;
     }
 }
+
+//Enter an amount in double, for examples 11.56: 11.56
+//Your amount 11.56 consists of
+// 11 dollars
+// 2 quarters
+// 0 dimes
+// 1 nickels
+// 1 pennies

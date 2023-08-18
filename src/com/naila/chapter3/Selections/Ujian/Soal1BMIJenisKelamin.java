@@ -30,7 +30,8 @@ public class Soal1BMIJenisKelamin {
 
         }
 
-        System.out.print("\nNilai BMI tubuh Anda adalah " + String.format("%.2f",BMI ) + ", maka kategori tubuh anda adalah ") ;
+        System.out.print("\nNilai BMI tubuh Anda adalah " + String.format("%.2f",BMI ) +
+                ", maka kategori tubuh anda adalah ") ;
 
         if (BMI < 18.5)
             System.out.print("Kurus") ;

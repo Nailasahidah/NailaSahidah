@@ -12,3 +12,6 @@ public class Listing8SalesTax {
 
     }
 }
+
+// Enter purchase amount: 197.55
+// Sales tax is $11.85

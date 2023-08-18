@@ -12,3 +12,6 @@ public class Listing5DisplayTime {
         System.out.println(seconds + " seconds is " + minutes + " minutes and " + remainingSeconds + " seconds");
     }
 }
+
+// Enter an integer for seconds: 500
+// 500 seconds is 8 minutes and 20 seconds

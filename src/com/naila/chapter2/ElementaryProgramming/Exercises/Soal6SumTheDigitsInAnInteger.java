@@ -14,6 +14,9 @@ public class Soal6SumTheDigitsInAnInteger {
         number /= 10;
         int sum = hundreds + tens + lessThan10 ;
 
-        System.out.println("The sumof the digits is " + sum) ;
+        System.out.println("The sum of the digits is " + sum) ;
     }
 }
+
+//Enter a number between 0 and 1000: 999
+//The sum of the digits is 27

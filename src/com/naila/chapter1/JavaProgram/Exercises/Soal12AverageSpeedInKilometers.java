@@ -23,3 +23,9 @@ public class Soal12AverageSpeedInKilometers {
 
     }
 }
+
+//(Kecepatan rata-rata dalam kilometer) Asumsikan seorang pelari berlari sejauh 24 mil dalam 1 jam, 40
+//menit, dan 35 detik. Buatlah program yang menampilkan kecepatan rata-rata dalam
+//kilometer per jam. (Catatan 1 mil sama dengan 1,6 kilometer.)
+
+// 23.040095443247726

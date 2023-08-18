@@ -14,3 +14,5 @@ public class Listing7ShowCurrentTime {
         System.out.println("Current time is " + currentHour + ":" + currentMinute + ":" + currentSecond + " GMT") ;
     }
 }
+
+// Current time is 3:5:44 GMT

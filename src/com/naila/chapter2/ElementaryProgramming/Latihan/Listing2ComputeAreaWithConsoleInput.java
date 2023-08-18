@@ -13,3 +13,6 @@ public class Listing2ComputeAreaWithConsoleInput {
         System.out.println("The area for the circle of radius " + radius + " is " + area) ;
     }
 }
+
+// Enter a number for radius: 2.5
+// The area for the circle of radius 2.5 is 19.6349375

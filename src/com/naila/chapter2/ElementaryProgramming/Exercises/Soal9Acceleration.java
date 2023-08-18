@@ -11,6 +11,9 @@ public class Soal9Acceleration {
 
         double a = (v1 - v0) / t;
 
-        System.out.println("The average acceleration is 10.0889") ;
+        System.out.println("The average acceleration is " + String.format("%.4f", a));
     }
 }
+
+//Enter v0, v1, and t:5.5 50.9 4.5
+//The average acceleration is 10.0889

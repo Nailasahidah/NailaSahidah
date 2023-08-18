@@ -19,3 +19,7 @@ public class Soal2ComputeTheVolumeOfACylinder {
 
     }
 }
+
+//Enter the radius and length of cylinder: 5.5 12
+//The area is 95.03
+//The volume is 1140.40

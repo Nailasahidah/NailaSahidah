@@ -1,6 +1,6 @@
 package com.naila.chapter2.ElementaryProgramming.Exercises;
 import java.util.Scanner ;
-public class Soal17WindChillTemperature {
+public class  Soal17WindChillTemperature {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in) ;
         System.out.print("Enter the temperature in Fahrenheit between -58 derajat F and 41 derajat F: ") ;

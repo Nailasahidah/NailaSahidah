@@ -5,10 +5,13 @@ public class Soal3ConvertfeetIntometers {
         Scanner input = new Scanner(System.in) ;
 
         double MeterPerFoot = 0.305;
-        System.out.print(" Enter a value for feet: ");
+        System.out.print("Enter a value for feet: ");
         double feet = input.nextDouble() ;
 
-        double meters = feet * 0.305 ;
+        double meters = feet * MeterPerFoot ;
         System.out.println(+ feet + " feet is " + meters + " meters "  ) ;
     }
 }
+
+// Enter a value for feet: 16.5
+// 16.5 feet is 5.0325 meters

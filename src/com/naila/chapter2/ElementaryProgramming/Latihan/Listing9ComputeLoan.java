@@ -23,3 +23,9 @@ public class Listing9ComputeLoan {
         System.out.println("The total payment is $" + (int)(totalPayment * 100) / 100.0) ;
     }
 }
+
+//Enter annual interest rate, e.g., 7.25: 5.75
+//Enter number of years as an integer, e.g., 5: 15
+//Enter number of years as an integer, e.g., 120000.95: 250000
+//The monthly payment is $2076.02
+//The total payment is $373684.53

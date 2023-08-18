@@ -11,6 +11,10 @@ public class Listing3ComputeAverage {
 
             double average = (number1 + number2 + number3) / 3 ;
 
-            System.out.println("The average of " + number2 + " " + number2 + " " + number3 + " is " + average) ;
+            System.out.println("The average of " + number1 + " "
+                    + number2 + " " + number3 + " is " + average) ;
         }
 }
+
+// Enter three numbers: 3 4 5
+// The average of 3.0 4.0 5.0 is 4.0

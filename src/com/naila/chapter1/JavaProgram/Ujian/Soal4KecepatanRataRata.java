@@ -13,6 +13,11 @@ public class Soal4KecepatanRataRata {
 
         System.out.println("Miles / (Hour + (minutes / 60) + (second / 3600.0) * 1.6") ;
         System.out.println("50.0  / (2    + (30      / 60) + (45     / 3600.0) * 1.6") ;
-        System.out.println("Kecepatan rata-rata dalam kilometer per jam adalah " + String.format("%.2f", kilometersPerHour) + " km/jam" ) ;
+        System.out.println("Kecepatan rata-rata dalam kilometer per jam adalah " +
+                String.format("%.2f", kilometersPerHour) + " km/jam" ) ;
     }
 }
+
+// Miles / (Hour + (minutes / 60) + (second / 3600.0) * 1.6
+// 50.0  / (2    + (30      / 60) + (45     / 3600.0) * 1.6
+// Kecepatan rata-rata dalam kilometer per jam adalah 31.84 km/jam

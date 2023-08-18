@@ -9,6 +9,6 @@ public class AverageSpeedInKilometers {
 
         double length = (speed * speed) / (2 * acceleration) ;
 
-        System.out.printf("The mimum runway length for this airplane is %.2f\n", length);
+        System.out.printf("The minimum runway length for this airplane is %.2f\n", length);
     }
 }

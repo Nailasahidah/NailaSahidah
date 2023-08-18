@@ -17,3 +17,5 @@ public class Soal13Solve2x2LinearEquations {
         System.out.println("x = " + x + " y = " + y) ;
     }
 }
+
+// x = 2.623901496861419 y = 0.7087397392563978
