@@ -1,6 +1,6 @@
 package com.naila.chapter13.AbstractClassesAndInterfaces.Exercises.Exercises_13_05;
 
-public class Circle extends  GeometricObject_{
+public class Circle extends GeometricObject_ {
     private double radius;
 
     public Circle() {
